@@ -1,0 +1,99 @@
+$date
+	Wed Feb 07 00:26:53 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_mux4_1 $end
+$var wire 2 ! mux_out [1:0] $end
+$var reg 1 " clk $end
+$var reg 2 # d0 [1:0] $end
+$var reg 2 $ d1 [1:0] $end
+$var reg 2 % d2 [1:0] $end
+$var reg 2 & d3 [1:0] $end
+$var reg 2 ' sel [1:0] $end
+$scope module m1 $end
+$var wire 2 ( d0 [1:0] $end
+$var wire 2 ) d1 [1:0] $end
+$var wire 2 * d2 [1:0] $end
+$var wire 2 + d3 [1:0] $end
+$var wire 2 , mux_out [1:0] $end
+$var wire 2 - sel [1:0] $end
+$var reg 2 . mux_out_reg [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+b0 -
+b0 ,
+b11 +
+b10 *
+b1 )
+b0 (
+b0 '
+b11 &
+b10 %
+b1 $
+b0 #
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+#15
+1"
+#20
+b1 !
+b1 ,
+b1 .
+b1 '
+b1 -
+0"
+#25
+1"
+#30
+b10 !
+b10 ,
+b10 .
+b10 '
+b10 -
+0"
+#35
+1"
+#40
+b11 !
+b11 ,
+b11 .
+b11 '
+b11 -
+0"
+#45
+1"
+#50
+0"
+#55
+1"
+#60
+0"
+#65
+1"
+#70
+0"
+#75
+1"
+#80
+0"
+#85
+1"
+#90
+0"
